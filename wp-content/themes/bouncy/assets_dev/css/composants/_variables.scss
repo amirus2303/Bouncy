@@ -1,11 +1,20 @@
 //Palette 
 
-$white: #fff;
-$green: #19bd9a;
-$grey: #81868e;
-$dark-grey: #333b46;
+$white     : #fff;
+$green     : #19bd9a;
+$grey      : #81868e;
+$dark-grey : #333b46;
+$light-grey: #f3f3f3;
 
 
 //Contenu
-$text-light: $white;
-$text-dark: $grey;
+$text-light                   : $white;
+$text-dark                    : $grey;
+
+$fa-bg                        : $grey;
+$fa-hover                     : $green;
+$border-dark-btn-rounded      : $dark-grey;
+$border-dark-btn-rounded-hover: $green;
+$border-light-btn-rounded     : $white;
+$sub-title                    : $dark-grey;
+$link                         : $green;

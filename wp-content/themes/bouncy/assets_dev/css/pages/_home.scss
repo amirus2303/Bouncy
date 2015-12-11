@@ -1,0 +1,17 @@
+.header{
+	background: url('/wp-content/themes/bouncy/assets_dev/img/header_bg.jpg') no-repeat top left;
+	background-size: cover; 
+	height: 737px;
+	width: 100%;
+}
+
+.banniere_title{
+	display: table;
+	position: relative;
+	height: 577px;
+	.row{
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
