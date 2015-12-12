@@ -10822,6 +10822,8 @@ button.close {
   font-size: 16px;
   background-color: transparent;
   border: 1px solid #fff; }
+  .btn:hover {
+    background-color: white; }
   .btn.rounded {
     border-radius: 15px; }
   .btn.dark {
@@ -10896,7 +10898,7 @@ body {
 .uppercase, .navbar-brand, h1, h2 {
   text-transform: uppercase; }
 
-.transition, .fa, .btn, .navbar-default .navbar-nav > li > a, .navbar-nav > li {
+.transition, .fa, .btn, .navbar-default .navbar-nav > li > a, .navbar-nav > li, .work, .work-content {
   transition: all 500ms ease-in-out; }
 
 .clearfix {
@@ -10920,6 +10922,8 @@ h2 {
   color: #81868e;
   font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 5px; }
+  h2.white {
+    color: #fff; }
 
 p {
   color: #81868e;
@@ -10981,6 +10985,11 @@ a {
 .sub_title {
   color: #333b46;
   font-size: 20px; }
+  .sub_title.white {
+    color: #fff; }
+  .sub_title.alignement {
+    display: table-cell;
+    vertical-align: table-cell; }
 
 .header {
   background: url("/wp-content/themes/bouncy/assets_dev/img/header_bg.jpg") no-repeat top left;
@@ -10995,3 +11004,60 @@ a {
   .banniere_title .row {
     display: table-cell;
     vertical-align: middle; }
+
+.work {
+  width: 33%;
+  margin-right: -5px;
+  overflow: hidden;
+  display: inline-block;
+  height: 336px;
+  position: relative;
+  cursor: pointer; }
+  .work.ajustement {
+    width: 34%; }
+  .work img {
+    width: 100%;
+    height: 100%; }
+  .work.work-hover {
+    width: 50%; }
+  .work.work-small {
+    width: 25%; }
+
+.work-content {
+  display: table;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  height: 336px;
+  opacity: 0;
+  background-color: black; }
+  .work-content h2 {
+    display: table-cell;
+    vertical-align: middle; }
+  .work-content.opacity-content {
+    opacity: 0.8; }
+
+.works_footer {
+  background: url("/wp-content/themes/bouncy/assets_dist/img/works_footer.jpg") no-repeat top left;
+  background-size: cover;
+  width: 100%;
+  height: 113px;
+  margin-top: -5px;
+  margin-left: -2px;
+  line-height: 113px; }
+
+.circle {
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 125px; }
+  .circle strong {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    width: 100%; }

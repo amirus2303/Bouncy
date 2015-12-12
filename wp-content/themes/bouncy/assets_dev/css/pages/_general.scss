@@ -36,6 +36,9 @@ h2{
 	color: $text-dark;
 	font-family: $source-sanspro;
 	letter-spacing: 5px;
+	&.white{
+		color: $text-light;
+	}
 }
 
 p{
@@ -118,4 +121,12 @@ a{
 .sub_title{
 	color: $sub-title;
 	font-size: 20px;
+	&.white{
+		color: $text-light;
+	}
+
+	&.alignement{
+		display: table-cell;
+		vertical-align: table-cell;
+	}
 }

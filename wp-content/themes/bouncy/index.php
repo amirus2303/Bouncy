@@ -59,7 +59,7 @@
                         <p class="white big margin_top_30">
                             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
                         </p>
-                        
+
                     </div>
                     <div class="col-xs-12 box_angle_down text-center"><i class="fa fa-angle-down active"></i></div>
                 </div>
@@ -122,10 +122,70 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div class="work js-work">
+                <img src="/wp-content/themes/bouncy/assets_dist/img/work1.jpg" />
+                <div class="work-content js-work-content opacity-content">
+                    <h2 class="white">Vintage</h2>
+                </div>
+            </div>
+            <div class="work js-work">
+                <img src="/wp-content/themes/bouncy/assets_dist/img/work1.jpg" />
+                <div class="work-content js-work-content opacity-content">
+                    <h2 class="white">Vintage</h2>
+                </div>
+            </div>
+            <div class="work js-work ajustement">
+                <img src="/wp-content/themes/bouncy/assets_dist/img/work1.jpg" />
+                <div class="work-content js-work-content opacity-content">
+                    <h2 class="white">Vintage</h2>
+                </div>
+            </div>
+            <div class="works_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-11">
+                            <p class="sub_title white alignement">At vero eos et <strong>accusamus</strong> et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+
+                        <div class="col-xs-1">
+                            <button type="button" class="btn rounded">Submit now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="padding_top_80 padding_bottom_80">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center margin_bottom_30">Our Services</h2>
+                    <p class="text-center margin_bottom_40">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br /> praesentium</p>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6"></div>
+                    <div class="col-xs-5 col-xs-offset-1 pull-right">
+                        <div class="circle js-circle_80 margin_right_15">
+                            <strong></strong>
+                        </div>
+
+                        <div class="circle js-circle_75 margin_right_15">
+                            <strong></strong>
+                        </div>
+
+                        <div class="circle js-circle_60">
+                            <strong></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/jquery.min.js"></script>
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/bootstrap.min.js"></script>
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/wow.min.js"></script>
+        <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/circle-progress.js"></script>
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/js/main.js"></script>
     <?php wp_footer(); ?>
     </body>

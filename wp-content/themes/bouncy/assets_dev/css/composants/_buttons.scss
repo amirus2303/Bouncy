@@ -5,6 +5,10 @@
 	font-size: 16px;
 	background-color: transparent;
 	border: 1px solid $border-light-btn-rounded;
+
+	&:hover{
+		background-color: white;
+	}
 	&.rounded{
 		border-radius: 15px;
 	}
@@ -14,7 +18,7 @@
 		&:hover{
 			background-color: $border-dark-btn-rounded-hover;
 			color: $text-light;
-			border: 1px solid $border-dark-btn-rounded-hover; 
+			border: 1px solid $border-dark-btn-rounded-hover;
 		}
 	}
 }
