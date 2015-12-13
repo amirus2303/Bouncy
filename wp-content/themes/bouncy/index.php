@@ -227,13 +227,13 @@
                     <p class="text-center margin_bottom_80"> vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br />praesentium</p>
                     <div class="filter_wrapper">
                         <ul class="filter_portfolio text-center margin_bottom_80">
-                            <li><a href="#">All works</a></li>
-                            <li><a href="#">Print</a></li>
-                            <li><a href="#">Identity</a></li>
-                            <li><a href="#">Branding</a></li>
-                            <li><a href="#">Web</a></li>
-                            <li><a href="#">HTML</a></li>
-                            <li><a href="#">Wordpress</a></li>
+                            <li data-filter="*" class="is-checked"><a href="#">All works</a></li>
+                            <li data-filter=".print"><a href="#">Print</a></li>
+                            <li data-filter=".identity"><a href="#">Identity</a></li>
+                            <li data-filter=".branding"><a href="#">Branding</a></li>
+                            <li data-filter=".web"><a href="#">Web</a></li>
+                            <li data-filter=".html"><a href="#">HTML</a></li>
+                            <li data-filter=".wordpress"><a href="#">Wordpress</a></li>
                         </ul>
                     </div>
                 </div>
@@ -243,43 +243,43 @@
         <section>
             <div class="container">
                 <div class="row grid">
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item identity">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/sac.jpg" class="img-responsive">
                     </div>
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item print">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/red_book.jpg" class="img-responsive">
                     </div>
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item print">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/yellow_book.jpg" class="img-responsive">
                     </div>
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item branding">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/garbeo.jpg" class="img-responsive">
                     </div>
 
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item branding">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/baby_foot.jpg" class="img-responsive">
                     </div>
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item branding">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/desk.jpg" class="img-responsive">
                     </div>
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item wordpress">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/bottle.jpg" class="img-responsive">
                     </div>
                     
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item html">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/toursy.jpg" class="img-responsive">
                     </div>
 
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item identity">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/beer.jpg" class="img-responsive">
                     </div>
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item web">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/open_book.jpg" class="img-responsive">
                     </div>
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item wordpress">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/table.jpg" class="img-responsive">
                     </div>
-                    <div class="col-xs-3 grid-item">
+                    <div class="col-xs-3 grid-item html">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/tablet.jpg" class="img-responsive">
                     </div>
 

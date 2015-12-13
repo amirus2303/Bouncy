@@ -21,6 +21,6 @@ $(document).ready(function(){
             }).on('circle-animation-progress', function(event, progress, stepValue) {
                 $(this).find('strong').text(parseInt(stepValue*100) + ' %');
         });
-    }
+    };  
 
 });

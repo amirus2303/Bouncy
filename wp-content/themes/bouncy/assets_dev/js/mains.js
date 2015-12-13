@@ -9,5 +9,5 @@ $( document ).ready(function() {
 
 		$('.js-work').not(this).removeClass('work-hover').addClass("work-small");// on fait le contraire avec les autres boites
 		$('.js-work').not(this).find('.js-work-content').addClass('opacity-content');
-    })
+    });
 });
