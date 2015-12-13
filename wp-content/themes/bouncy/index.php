@@ -66,6 +66,7 @@
             </div>
         </section>
 
+        <!--Section This is bouncy -->
         <section class="padding_top_80 padding_bottom_80">
             <div class="container">
                 <div class="row">
@@ -83,6 +84,7 @@
             </div>
         </section>
 
+        <!--Section Details about bouncy -->
         <section class="grey_bg padding_top_80 padding_bottom_80">
             <div class="container">
                 <div class="row">
@@ -112,6 +114,7 @@
             </div>
         </section>
 
+        <!--Section Featured projects -->
         <section class="padding_top_70 padding_bottom_70">
             <div class="container">
                 <div class="row">
@@ -123,6 +126,7 @@
             </div>
         </section>
 
+        <!--Section works -->
         <section>
             <div class="work js-work">
                 <img src="/wp-content/themes/bouncy/assets_dist/img/work1.jpg" />
@@ -157,6 +161,7 @@
             </div>
         </section>
 
+        <!--Section Our services -->
         <section class="padding_top_80 padding_bottom_80">
             <div class="container">
                 <div class="row">
@@ -164,7 +169,21 @@
                     <p class="text-center margin_bottom_40">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br /> praesentium</p>
                 </div>
                 <div class="row">
-                    <div class="col-xs-6"></div>
+                    <div class="col-xs-6">
+                        <div class="col-xs-2">
+                            <i class="fa fa-cogs big margin_bottom_15"></i>
+                            <i class="fa fa-paint-brush active big margin_bottom_15"></i>
+                            <i class="fa fa-gamepad big margin_bottom_15"></i>
+                            <i class="fa fa-plug big margin_bottom_15"></i>
+                        </div>
+
+                        <div class="col-xs-8">
+                            <p class="sub_title margin_bottom_30">Graphic Design</p>
+                            <p class="margin_bottom_30">At vero eos et accusamus et <a href="#">iusto</a> odio dignissimos <strong>ducimus</strong> qui blanditiis praesentium voluptatum deleniti</p>
+                            <p>quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, <a href="#">similique</a> sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+                        </div>
+
+                    </div>
                     <div class="col-xs-5 col-xs-offset-1 pull-right">
                         <div class="circle js-circle_80 margin_right_15">
                             <strong></strong>
@@ -181,10 +200,98 @@
                 </div>
             </div>
         </section>
+
+        <!--Section Impressed -->
+        <section class="padding_top_40 wrapper_impressed">
+            <div class="impressed padding_top_70">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-8 padding_right_20">
+                            <h2 class="white margin_bottom_40">Impressed ?</h2>
+                            <p class="white big margin_bottom_20">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
+                            <p class="white uppercase">- <strong>Abdullah Noman</strong><br />Creatice Director, <a href="#">Code Cafe</a></p>
+                        </div>
+                        <div class="col-xs-4">
+                            <img src="/wp-content/themes/bouncy/assets_dist/img/ecran.png" class="pull-right" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Sectio portfolio -->
+        <section class="padding_top_80">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center margin_bottom_30">THE PORTFOLIO</h2>
+                    <p class="text-center margin_bottom_80"> vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis<br />praesentium</p>
+                    <div class="filter_wrapper">
+                        <ul class="filter_portfolio text-center margin_bottom_80">
+                            <li><a href="#">All works</a></li>
+                            <li><a href="#">Print</a></li>
+                            <li><a href="#">Identity</a></li>
+                            <li><a href="#">Branding</a></li>
+                            <li><a href="#">Web</a></li>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">Wordpress</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row grid">
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/sac.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/red_book.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/yellow_book.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/garbeo.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/baby_foot.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/desk.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/bottle.jpg" class="img-responsive">
+                    </div>
+                    
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/toursy.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/beer.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/open_book.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/table.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-3 grid-item">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/tablet.jpg" class="img-responsive">
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/jquery.min.js"></script>
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/bootstrap.min.js"></script>
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/wow.min.js"></script>
+        <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/masonry.js"></script>
+        <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/isotope.js"></script>
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/vendor/circle-progress.js"></script>
         <script src="<?php bloginfo("stylesheet_directory"); ?>/assets_dist/js/main.js"></script>
     <?php wp_footer(); ?>

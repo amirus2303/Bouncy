@@ -70,6 +70,10 @@ a{
 	padding-right: 0;
 }
 
+.padding_top_40{
+	padding-top: 40px;
+}
+
 .padding_top_70{
 	padding-top: 70px;
 }
@@ -86,12 +90,20 @@ a{
 	padding-bottom: 80px;
 }
 
+.padding_right_20{
+	padding-right: 20px;
+}
+
 .margin_top_30{
 	margin-top: 30px;
 }
 
 .margin_top_50{
 	margin-top: 50px;
+}
+
+.margin_bottom_15{
+	margin-bottom: 15px;
 }
 
 .margin_bottom_20{
@@ -108,6 +120,14 @@ a{
 
 .margin_bottom_50{
 	margin-bottom: 50px;
+}
+
+.margin_bottom_80{
+	margin-bottom: 80px;
+}
+
+.margin_left_20{
+	margin-left: 20px;
 }
 
 .margin_right_15{
@@ -129,4 +149,8 @@ a{
 		display: table-cell;
 		vertical-align: table-cell;
 	}
+}
+
+.position_relative{
+	position: relative;
 }

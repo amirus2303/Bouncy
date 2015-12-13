@@ -10946,6 +10946,9 @@ a {
   padding-left: 0;
   padding-right: 0; }
 
+.padding_top_40 {
+  padding-top: 40px; }
+
 .padding_top_70 {
   padding-top: 70px; }
 
@@ -10958,11 +10961,17 @@ a {
 .padding_bottom_80 {
   padding-bottom: 80px; }
 
+.padding_right_20 {
+  padding-right: 20px; }
+
 .margin_top_30 {
   margin-top: 30px; }
 
 .margin_top_50 {
   margin-top: 50px; }
+
+.margin_bottom_15 {
+  margin-bottom: 15px; }
 
 .margin_bottom_20 {
   margin-bottom: 20px; }
@@ -10975,6 +10984,12 @@ a {
 
 .margin_bottom_50 {
   margin-bottom: 50px; }
+
+.margin_bottom_80 {
+  margin-bottom: 80px; }
+
+.margin_left_20 {
+  margin-left: 20px; }
 
 .margin_right_15 {
   margin-right: 15px; }
@@ -10990,6 +11005,9 @@ a {
   .sub_title.alignement {
     display: table-cell;
     vertical-align: table-cell; }
+
+.position_relative {
+  position: relative; }
 
 .header {
   background: url("/wp-content/themes/bouncy/assets_dev/img/header_bg.jpg") no-repeat top left;
@@ -11061,3 +11079,46 @@ a {
     left: 0;
     font-size: 25px;
     width: 100%; }
+
+.wrapper_impressed {
+  position: relative; }
+  .wrapper_impressed img {
+    position: absolute;
+    top: -100px; }
+
+.impressed {
+  background: url("/wp-content/themes/bouncy/assets_dist/img/impressed.jpg") no-repeat top left;
+  background-size: cover;
+  height: 392px; }
+
+.filter_wrapper {
+  float: right;
+  position: relative;
+  left: -50%;
+  text-align: left; }
+  .filter_wrapper .filter_portfolio {
+    position: relative;
+    left: 50%;
+    list-style-type: none;
+    float: left; }
+    .filter_wrapper .filter_portfolio li {
+      float: left;
+      margin-right: 35px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold; }
+      .filter_wrapper .filter_portfolio li a {
+        color: #81868e;
+        position: relative;
+        width: 70px;
+        display: inline-block;
+        text-decoration: none; }
+        .filter_wrapper .filter_portfolio li a:hover:after {
+          content: url("/wp-content/themes/bouncy/assets_dev/img/hover-filter.png");
+          padding-top: 15px;
+          position: absolute;
+          left: 25%;
+          top: 10px; }
+
+.grid-item {
+  margin-bottom: 15px; }
