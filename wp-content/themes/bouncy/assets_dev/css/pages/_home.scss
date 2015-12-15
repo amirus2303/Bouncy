@@ -145,3 +145,48 @@
 .grid-item{
 	margin-bottom: 15px;
 }
+
+.start_project{
+	background: url('/wp-content/themes/bouncy/assets_dist/img/start_project.jpg') no-repeat top left;
+	background-size: cover;
+	height: 200px;
+	display: table;
+	text-align: center;
+
+	.wrapper{
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.homme{
+	border-right: 3px solid $green;
+	padding-right: 10px;
+	margin-bottom: 30px;
+}
+.homme_poste{
+	position: relative;
+	bottom: 10px;
+	margin-bottom: 0;
+}
+
+.progress_bar{
+	width: 100%;
+	height: 5px;
+	background-color: $progress-bar-bg;
+	overflow: hidden;
+}
+
+.progress_bar_wrapper{
+	p{
+		margin-bottom: 0;
+		position: relative;
+	}
+
+	.green_progress_bar{
+		height: 5px;
+		width: 0px;
+		background-color: $green;
+	}
+
+}

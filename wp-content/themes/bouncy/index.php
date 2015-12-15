@@ -162,7 +162,7 @@
         </section>
 
         <!--Section Our services -->
-        <section class="padding_top_80 padding_bottom_80">
+        <section class="padding_top_80 padding_bottom_80 grey_bg">
             <div class="container">
                 <div class="row">
                     <h2 class="text-center margin_bottom_30">Our Services</h2>
@@ -202,7 +202,7 @@
         </section>
 
         <!--Section Impressed -->
-        <section class="padding_top_40 wrapper_impressed">
+        <section class="padding_top_40 wrapper_impressed grey_bg">
             <div class="impressed padding_top_70">
                 <div class="container">
                     <div class="row">
@@ -220,7 +220,7 @@
         </section>
 
         <!--Sectio portfolio -->
-        <section class="padding_top_80">
+        <section class="padding_top_80 grey_bg">
             <div class="container">
                 <div class="row">
                     <h2 class="text-center margin_bottom_30">THE PORTFOLIO</h2>
@@ -240,8 +240,8 @@
             </div>
         </section>
 
-        <section>
-            <div class="container">
+        <section class="grey_bg padding_bottom_80">
+            <div class="container margin_bottom_40">
                 <div class="row grid">
                     <div class="col-xs-3 grid-item identity">
                         <img src="/wp-content/themes/bouncy/assets_dist/img/sac.jpg" class="img-responsive">
@@ -283,6 +283,66 @@
                         <img src="/wp-content/themes/bouncy/assets_dist/img/tablet.jpg" class="img-responsive">
                     </div>
 
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 start_project">
+                        <div class="wrapper">
+                            <p class="sub_title white margin_bottom_30">At vero eos et accusamus et iusto odio <strong>dignissimos</strong> ducimus qui blanditiis </p>
+                            <button type="button" class="btn rounded">Start project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section the team -->
+        <section class="padding_top_80 padding_bottom_80">
+            <div class="container">
+                <div class="row">
+                    <h2 class="h2 text-center margin_bottom_30">THE TEAM</h2>
+                    <p class="text-center margin_bottom_50">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br />praesentium
+                </div>
+
+                <div class="row js-wrapper_homme">
+                    <div class="col-xs-6">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/homme.jpg" />
+                    </div>
+
+                    <div class="col-xs-4 col-xs-offset-2">
+                        <div class="homme pull-right">
+                            <p class="sub_title"><strong>Abdullah Noman</strong></p>
+                            <p class="uppercase homme_poste"><i>Creative Director, Code Cafe</i></p>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p class="pull-right text-right margin_bottom_30">At vero eos et accusamus et iusto odio dignissimos<br /> ducimus qui blanditiis praesentium</p>
+                        <div class="clearfix"></div>
+                        <div class="progress_bar_wrapper  margin_bottom_20">
+                            <p class="uppercase pull-left">branding</p>
+                            <p class="pull-right js-percent_80">80%</p>
+                            <div class="progress_bar js-progress_bar">
+                                <div class="green_progress_bar wow fadeInLeft js-green_progress_bar_80"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress_bar_wrapper margin_bottom_20">
+                            <p class=" uppercase pull-left">branding</p>
+                            <p class=" pull-right js-percent_65">65%</p>
+                            <div class="progress_bar js-progress_bar">
+                                <div class="green_progress_bar wow fadeInLeft js-green_progress_bar_65"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress_bar_wrapper">
+                            <p class="uppercase pull-left">branding</p>
+                            <p class="pull-right js-percent_75">75%</p>
+                            <div class="progress_bar js-progress_bar">
+                                <div class="green_progress_bar wow fadeInLeft js-green_progress_bar_75"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
