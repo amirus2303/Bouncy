@@ -10930,6 +10930,8 @@ p {
   font-weight: 300; }
   p.white {
     color: #fff; }
+  p.green {
+    color: #19bd9a; }
   p.big {
     font-size: 16px; }
 
@@ -10949,17 +10951,26 @@ a {
 .padding_top_40 {
   padding-top: 40px; }
 
+.padding_top_50 {
+  padding-top: 50px; }
+
 .padding_top_70 {
   padding-top: 70px; }
 
 .padding_top_80 {
   padding-top: 80px; }
 
+.padding_bottom_50 {
+  padding-bottom: 50px; }
+
 .padding_bottom_70 {
   padding-bottom: 70px; }
 
 .padding_bottom_80 {
   padding-bottom: 80px; }
+
+.padding_left_30 {
+  padding-left: 30px; }
 
 .padding_right_20 {
   padding-right: 20px; }
@@ -10988,11 +10999,20 @@ a {
 .margin_bottom_80 {
   margin-bottom: 80px; }
 
+.margin_bottom_100 {
+  margin-bottom: 100px; }
+
 .margin_left_20 {
   margin-left: 20px; }
 
 .margin_right_15 {
   margin-right: 15px; }
+
+.margin_right_60 {
+  margin-right: 50px; }
+
+.no_margin_bottom {
+  margin-bottom: 0; }
 
 .grey_bg {
   background-color: #f3f3f3; }
@@ -11157,3 +11177,55 @@ a {
   height: 5px;
   width: 0px;
   background-color: #19bd9a; }
+
+.contact_us {
+  background: url("/wp-content/themes/bouncy/assets_dist/img/contact_us_bg.jpg") no-repeat top left;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: table; }
+  .contact_us .wrapper {
+    display: table-cell;
+    vertical-align: middle; }
+
+.blog {
+  background: url("/wp-content/themes/bouncy/assets_dist/img/blog_bg.jpg") no-repeat top left;
+  background-size: cover;
+  height: 690px; }
+
+.price_box {
+  background-color: white; }
+
+.offer {
+  background-color: #19bd9a;
+  padding: 10px 30px;
+  display: table;
+  width: 100%; }
+  .offer h2 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 20px; }
+
+.content_offer {
+  height: 230px;
+  display: table;
+  width: 100%; }
+
+.wrapper_price {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+.price {
+  color: #19bd9a;
+  font-size: 42px;
+  font-weight: 700; }
+
+.services {
+  padding-left: 15px;
+  text-align: left; }
+
+.subscribe {
+  background: url("/wp-content/themes/bouncy/assets_dist/img/subscribe_bg.jpg") no-repeat left top;
+  background-size: cover;
+  height: 378px; }

@@ -190,3 +190,68 @@
 	}
 
 }
+
+.contact_us{
+	background: url('/wp-content/themes/bouncy/assets_dist/img/contact_us_bg.jpg') no-repeat top left;
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	display: table;
+
+	.wrapper{
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.blog{
+	background: url('/wp-content/themes/bouncy/assets_dist/img/blog_bg.jpg') no-repeat top left;
+	background-size: cover;
+	height: 690px;
+}
+
+.price_box{
+	background-color: white;
+}
+
+.offer{
+	background-color: $offer-bg;
+	padding: 10px 30px;
+	display: table;
+	width: 100%;
+	h2{
+		display: table-cell;
+		vertical-align: middle;
+		padding: 10px 20px;
+	}
+}
+
+.content_offer{
+	height: 230px;
+	display: table;
+	width: 100%;
+
+}
+
+.wrapper_price{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.price{
+	color: $price;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.services{
+	padding-left: 15px;
+	text-align: left;
+}
+
+.subscribe{
+	background: url('/wp-content/themes/bouncy/assets_dist/img/subscribe_bg.jpg') no-repeat left top;
+	background-size: cover;
+	height: 378px;
+}

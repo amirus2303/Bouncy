@@ -1,70 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-    <head>
-        <meta charset="<?php bloginfo("charset"); ?>">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title><?php bloginfo("title"); ?></title>
-
-        <!-- Bootstrap -->
-        <link href="<?php bloginfo("stylesheet_url"); ?>" rel="stylesheet">
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <?php wp_head(); ?>
-    </head>
-    <body>
-        <section class="header">
-            <nav class="navbar navbar-default">
-                <div class="container">
-                    <div class="row">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Bouncy</a>
-                        </div>
-
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a href="#">Hello</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-                    </div>
-                </div><!-- /.container-fluid -->
-            </nav>
-
-            <div class="container banniere_title">
-                <div class="row">
-                    <div class="col-xs-6 no-lateral_padding col-xs-offset-3 text-center">
-                        <h1>We Are Code Cafe</h1>
-                        <p class="white big margin_top_30">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                        </p>
-
-                    </div>
-                    <div class="col-xs-12 box_angle_down text-center"><i class="fa fa-angle-down active"></i></div>
-                </div>
-            </div>
-        </section>
+<?php get_header(); ?>
 
         <!--Section This is bouncy -->
         <section class="padding_top_80 padding_bottom_80">
@@ -302,7 +236,7 @@
         <section class="padding_top_80 padding_bottom_80">
             <div class="container">
                 <div class="row">
-                    <h2 class="h2 text-center margin_bottom_30">THE TEAM</h2>
+                    <h2 class="text-center margin_bottom_30">THE TEAM</h2>
                     <p class="text-center margin_bottom_50">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br />praesentium
                 </div>
 
@@ -343,6 +277,126 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section contact us -->
+        <section class="contact_us text-center">
+            <div class="container wrapper">
+                <div class="row">
+                    <p class="sub_title white margin_bottom_30">At vero eos et <strong>accusamus</strong> et iusto odio <strong>dignissimos</strong> ducimus qui blanditiis</p>
+                    <button type="button" class="btn rounded">Contact Us</button>
+                </div>
+            </div>
+        </section>
+
+        <!--Section Testimonials -->
+        <section class="padding_top_80 padding_bottom_80 grey_bg text-center">
+            <div class="container">
+                <div class="row">
+                    <h2 class="margin_bottom_30">Testimonials</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Section partho -->
+        <section class="padding_top_50 padding_bottom_50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <img src="/wp-content/themes/bouncy/assets_dist/img/homme_lunette.jpg" />
+                    </div>
+                    <div class="col-xs-8">
+                        <p class="margin_bottom_30">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+                        <p class="green uppercase no_margin_bottom"><strong>PARTHO</strong></p>
+                        <p class="uppercase">FOUNDER, ARTWAYS BD</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section Blog -->
+        <section class="blog">
+            <div class="container padding_top_80 padding_bottom_80">
+                <div class="row">
+                    <h2 class="white margin_bottom_40">LATEST NEWS</h2>
+                    <p class="white margin_bottom_80">At vero eos et accusamus et iusto odio dignissimos ducimus qui<br /> blanditiis praesentium</p>
+                    <div class="col-xs-5 col-xs-offset-1">
+                        <p class="sub_title white">The trending Landing Pages</p>
+                        <p class="uppercase">by <a href="#">Kabir Uddin</a></p>
+                        <p class="margin_bottom_50">6950 Likes - 243 Comments - 703 shares</p>
+                        <p class="margin_bottom_50">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio...  </p>
+                        <p class="font_16">+ Read more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section our price -->
+        <section class="padding_top_80 padding_bottom_80 grey_bg">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center margin_bottom_30">Our Price</h2>
+                    <p class="text-center margin_bottom_30">At vero eos et accusamus et iusto odio dignissimos ducimus qui <br />blanditiis praesentium</p>
+                    <div class="col-xs-10 col-xs-offset-2">
+                        <div class="col-xs-4">
+                            <div class="price_box margin_right_60 text-center">
+                                <div class="offer">
+                                    <h2 class="white"><strong>PREMIUM</strong></h2>
+                                </div>
+                                <div class="content_offer">
+                                    <div class="wrapper_price">
+                                        <p class="price no_margin_bottom">$ 60</p>
+                                        <p class="sub_title dark">Per Month</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-4">
+                            <div class="price_box margin_right_60 text-center">
+                                <div class="content_offer">
+                                    <div class="wrapper_price padding_left_30">
+                                        <p class="text-left">full Branding</p>
+                                        <p class="text-left">Project Management</p>
+                                        <p class="text-left">Unlimited Revisions</p>
+                                        <p class="text-left">24/7 h Service</p>
+                                        <p class="text-left">Free Domain</p>
+                                        <p class="text-left">Free Hosting</p>
+                                    </div>
+                                </div>
+                                <div class="offer">
+                                    <h2 class="white font_16"><strong>Let's start</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-4">
+                            <div class="price_box margin_right_60 text-center">
+                                <div class="offer">
+                                    <h2 class="white"><strong>Exclusive</strong></h2>
+                                </div>
+                                <div class="content_offer">
+                                    <div class="wrapper_price">
+                                        <p class="price no_margin_bottom">$ 80</p>
+                                        <p class="sub_title dark">Per Month</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section subscribe -->
+        <section class="subscribe">
+            <div class="container padding_top_80 padding_bottom_80">
+                <div class="row text-center">
+                    <h2 class="white margin_bottom_30">Subscribe us</h2>
+                    <p class="margin_bottom_50">At vero eos et accusamus et iusto odio dignissimos ducimus qui <br />blanditiis praesentium</p>
                 </div>
             </div>
         </section>
